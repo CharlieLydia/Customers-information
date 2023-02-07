@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Database table</title>
-</head>
-<body>
-<table>
-<thead>
-<tr>
-<th> First name</th>
-<th> Surname</th>
-<th> Email adress</th>
-<th> Telephone number</th>
-</tr>
-</thead>
-</body>
-</html>
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
+ <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
