@@ -1,2 +1,2 @@
-# Data-table
-This is a program of a data table, you can add customers to the table, delete them and find a certain customer. It will have their first name, surname, email address, and telephone number there, they will also have a unique identifier. 
+# Customers information.
+This is a program allows a customer to input their name, email address and number. It also allows the user to select their favourite biscuit and animal.
