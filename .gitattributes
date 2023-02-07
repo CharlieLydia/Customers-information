@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+CREATE TABLE customers_details(
+firstname VARCHAR(30) NOTNULL,
+surname VARCHAR(30) NOTNULL,
+email VARCHAR(30) NOTNULL,
+telephonenumber VARCHAR(11) NOTNULL,)
