@@ -1,5 +1,17 @@
-CREATE TABLE customers_details(
-firstname VARCHAR(30) NOTNULL,
-surname VARCHAR(30) NOTNULL,
-email VARCHAR(30) NOTNULL,
-telephonenumber VARCHAR(11) NOTNULL,)
+<!DOCTYPE html>
+<html>
+<head>
+<title>Database table</title>
+</head>
+<body>
+<table>
+<thead>
+<tr>
+<th> First name</th>
+<th> Surname</th>
+<th> Email adress</th>
+<th> Telephone number</th>
+</tr>
+</thead>
+</body>
+</html>
