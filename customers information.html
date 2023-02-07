@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>customers information</title>
+</head>
+<body>
+<table>
+<thead>
+<h2> Please enter your're details below.</h2>
+<tr>
+<th> First name:</th>
+<td><input type="text" firstname="firstname"></td>
+</tr>
+<tr>
+<th> Surname:</th>
+<td><input type="text" surname="surname"></td>
+</tr>
+<tr>
+<th> Email address:</th>
+<td><input type="text" emailaddress="emailaddress"></td>
+</tr>
+<tr>
+<th> Telephone number:</th>
+<td><input type="text" number="number"></td>
+</tr>
+</thead>
+</table>
+
+<br>
+<h2> Choose you're favourite biscuit.</h2>
+<form>
+<label for="favouritebiscuit"> select favourite biscuit:</label>
+<select name="favouritebiscuit" id="favouritebiscuit">
+<option value="favouritebiscuit">favourite biscuit</option>
+<option value ="oreo">oreo</option>
+<option value ="bourbon">bourbon</option>
+<option value = "custardcream">custard cream</option> 
+<option value = "digestive">digestive</option>
+</select>
+</form>
+<br>
+<h2> Choose you're favourite animal.</h2>
+<fieldset>
+  <legend>Select favourite animal:</legend>
+  <label for="Dog">Dog</label>
+  <input type="radio" name="animal" id="Dog" value="Dog" checked />
+  <br>
+  <label for="Cat">Cat</label>
+  <input type="radio" name="animal" id="Cat" value="Cat" checked />
+  <br>
+  <label for="Horse">Horse</label>
+  <input type= "radio" name="animal" id="Horse" value="Horse" checked /> 
+</fieldset>
+<input type="submit" value="Save">
+</body>
+</html>
